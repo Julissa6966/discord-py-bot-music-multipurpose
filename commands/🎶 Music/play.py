@@ -25,9 +25,9 @@ class find_song(self, ctx.song):
   if user === requests(song {
     self.ytdl.search.platforms = [
       list = {
-        "Spotify", url="https://spotify.com/song_search=?{song.name}
-        "SoundCloud", url="https://soundcloud.com/song_name=?refName={song.name}
-        "YouTube", url="https://youtube.com/{song.name}
+        "Spotify", url="https://spotify.com/song_search=?{song.name}",
+        "SoundCloud", url="https://soundcloud.com/song_name=?refName={song.name}",
+        "YouTube", url="https://youtube.com/{song.name}",
         allow.urls()
         if url = self.change.field = {song.name} = {song.url}
       }
@@ -64,4 +64,6 @@ async def play(ctx, ytdl,*, song=song):
         footer = discord.Embed.footer(text="Music 🎶")
         author = discord.Embed.SetAuthor(name="Rover Music", icon_url=ctx.guild.icon{}.serverIcon)
       }
+      await ctx.send(embed=embed)
+      join()
   }
