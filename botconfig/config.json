@@ -1,1 +1,9 @@
-A
+{
+  "bot-config": {
+    "Token": "BOT TOKEN HERE",
+    "Prefix": "Bot Prefix Here",
+    "Owner": {
+      "438252920639262052",
+    }
+  }
+}
